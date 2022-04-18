@@ -1,0 +1,31 @@
+{
+  "name": "jeopardio-backend",
+  "version": "1.0.0",
+  "description": "backend for jeopardio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ckonold/jeopardio-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ckonold/jeopardio-backend/issues"
+  },
+  "homepage": "https://github.com/ckonold/jeopardio-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "pg": "^8.7.3",
+    "router": "^1.3.6",
+    "rowdy-logger": "^1.0.2",
+    "sequelize": "^6.17.0",
+    "socket-io": "^1.0.0",
+    "socket.io": "^4.4.1"
+  }
+}
